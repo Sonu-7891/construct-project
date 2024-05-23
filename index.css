@@ -1,0 +1,139 @@
+#navbar{
+    font-family: "Source Sans 3", sans-serif;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+#NAVBOX{
+    display: flex; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item{
+    
+    font-weight: 700;
+    height: 30px;
+    width: fit-content;
+    padding: 8px;
+    display: flex;
+    margin-top: 8px;
+}
+.item1{
+    
+    font-weight: 700;
+    height: 30px;
+    width: fit-content;
+    padding-top: 15px;
+}
+.item1>a{
+    font-size: 17px;
+    color: red;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.item>a{
+    font-size: 17px;
+    color: black;
+    font-family: sans-serif;
+
+}
+.item>a:hover{
+    color: red;
+
+}
+#safe{
+    height: 15px;
+    width: fit-content;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 1px;
+    padding: 2px;
+    
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+/* @keyframes mymove {
+    5%   {left: 0px; background: red; width: 40px;}
+    5% {right: 0px; background: rgb(255, 0, 0); width: 40px;}
+  } */
+#navbox2{
+    display: flex;
+    align-items: center;
+   
+    margin-left: 25px;
+}
+#Login{
+    width: fit-content;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) and (min-width:425px ) {
+    #navbar{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .item{
+        padding: 8px;
+        display: flex;
+        margin-top: 5px;
+    }
+    .item1>a{
+        font-size: 12px;
+    }
+    .item>a{
+        font-size: 12px;
+    }
+    #NAVBOX{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    #navbox2{
+        display: flex;
+        align-items: center;
+       font-size: 12px;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 424px) and (min-width:200px ) {
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .item1>a{
+        font-size: 9px;
+    }
+    .item>a{
+        font-size: 9px;
+        color: black;
+        font-family: sans-serif;
+    
+    }
+    #NAVBOX{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    #navbox2{
+        display: flex;
+        align-items: center;
+       font-size: 10px;
+        margin-left: 10px;
+    }
+}
