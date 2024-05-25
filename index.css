@@ -1,5 +1,6 @@
 body{
     font-family: "Source Sans 3", sans-serif;
+   
 }
 #navbar{
     display: flex;
@@ -358,7 +359,7 @@ input{
 /* cards for products */
 #health_care_card{
     background-color:rgb(246,246,246);
-    height: 2000px;
+    height: 2500px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .shop_cards_outer{
@@ -399,24 +400,24 @@ input{
     width: 100%;
     height: 75px;
     display: flex;
+    justify-content: space-between;
     margin-bottom: -20px;
 }
-#space_between-cards>p{
+#space_between-cards>div{
     font-size: 20px;
     margin-left: 70px;
 }
-#space_between-cards>button{
+#space_between-cards>div>button{
     background-color:rgb(255,111,97) ;
     color: white;
     border: none;
+    margin: 20px 55px;
     border-radius: 3px;
     font-size: 10px;
     font-weight: 700;
     height: 25px;
     width: 60px;
-    position: relative;
-    top: 20px;
-    left: 1024px;
+   
     /* right: -1025px; */
 }
 /* coupn cards  **************** */
@@ -557,8 +558,60 @@ b{
 .supplement_card-inner:hover{
     box-shadow: rgba(65, 65, 65, 0.35) 0px 5px 15px;
 }
+.personalcare_card{
+    padding-left: 70px;
+    width: 100%;
+    height: 210px;
+    background-color: white;
+}
+/* test pathology cards ************* */
+.testcoupan_card{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+}
+.testcoupan_card_grid{
+    width: 100%;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,140px);
+    column-gap: 30px;
+}
+.testcoupan_card_box:hover{
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 
+}
+.testcoupan_card_box>img{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    top: -25px;
+    left: 242px;
+}
+.testcoupan_card_box>p{
+    margin: -15px 15px;
+    font-size: 11px;
+    color: grey;
+}
+.testcoupan_card_box>h5{
+    font-size: 15px;
+}
+.testcoupan_card_box>b{
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
 
+/* treanding cards */
+.trending_cards{
+    width: 100%;
+    height: 330px;
+    background-color: white;
+}
 @media screen and (max-width: 768px) and (min-width:426px ) {
     #navbar{
         
@@ -677,18 +730,10 @@ b{
         display: none;
     }
     /* space between card divs */
-    #space_between-cards>p{
-        font-size: 16px;
-        margin-left: 40px;
-    }
-    #space_between-cards>button{
-        position: relative;
-        top: 18px;
-        left: 375px;
-        height: 15px;
-        width: 50px;
-        font-size: 8px;
-
+    
+    #space_between-cards>div{
+        font-size: 18px;
+        margin-left: 30px;
     }
     /* coupan cards */
     .img_1mg>img{
@@ -775,6 +820,43 @@ b{
     .supplement_card-inner:nth-child(6),
     .supplement_card-inner:nth-child(7){
         display: none;
+    }
+    .personalcare_card{
+        padding-left: 30px;
+    }
+    /* test carsds ******************* */
+    .testcoupan_card{
+      
+        height: 200px;
+        padding-top: 10px;
+        background-color: white;
+        box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+    }
+    .testcoupan_card_grid{
+      
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,250px);
+        grid-template-rows: repeat(1,190px);
+        column-gap: 10px;
+    }
+    .testcoupan_card_box:nth-child(4){
+        display: none;
+    }
+    .testcoupan_card_box>img{
+        position: relative;
+        top: -25px;
+        left: 190px;
+    }
+    .testcoupan_card_box>b{
+        position: relative;
+        top: 100px;
+        left: -50px;
+    }
+    /* teranding cards */
+    .trending_cards{
+        width: 100%;
+        height: 350px;
     }
     
 }
@@ -906,18 +988,15 @@ b{
     }
 
      /* space between card divs */
-    #space_between-cards>p{
-        font-size: 16px;
-        margin-left: 20px;
+     #space_between-cards{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        margin-bottom: -20px;
     }
-    #space_between-cards>button{
-        position: relative;
-        top: 18px;
-        left: 155px;
-        height: 15px;
-        width: 50px;
-        font-size: 8px;
-
+    #space_between-cards>div{
+        font-size: 20px;
+        margin-left: 10px;
     }
      /* coupan cards */
      .img_1mg>img{
@@ -999,5 +1078,42 @@ b{
     .supplement_card-inner:nth-child(7){
         display: none;
     }
-
+    .personalcare_card{
+        padding-left: 0px;
+    }
+    /* test carsds ******************* */
+    .testcoupan_card{
+      
+        height: 200px;
+        padding-top: 10px;
+        background-color: white;
+        box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+    }
+    .testcoupan_card_grid{
+      
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        grid-template-rows: repeat(1,190px);
+        column-gap: 10px;
+    }
+    .testcoupan_card_box:nth-child(4){
+        display: none;
+    }
+    .testcoupan_card_box>img{
+        position: relative;
+        top: 20px;
+        left: 90px;
+    }
+    .testcoupan_card_box>b{
+        position: relative;
+        top: 90px;
+        left: -50px;
+    }
+    /* trending cards  */
+    .trending_cards{
+        width: 100%;
+        height: 410px;
+    }
+    
 }
