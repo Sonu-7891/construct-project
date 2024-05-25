@@ -311,6 +311,252 @@ input{
     height: 200px ;
     width: 510px;
 }
+#tata-msg{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#quickorderbox{
+    display: none;
+    
+}
+#quickorderbox>div{
+    margin: 10px;
+    text-align: left;
+}
+#quickorderbox>div:nth-child(2){
+    margin: 30px;
+    text-align: left;
+}
+#quickorderbox>div>p:nth-child(3){
+    color: rgb(33, 203, 33);
+
+}
+/* know mor item */
+#knowmore{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(246,246,246);
+}
+#knowmore img{
+     width: 90%;
+     height: 150px;
+     margin: 45px 70px;
+     text-align: center;
+}
+#knowmore P{
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+    top: -50px;
+}
+/* cards for products */
+#health_care_card{
+    background-color:rgb(246,246,246);
+    height: 2000px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shop_cards_outer{
+    padding-left: 70px;
+    width: 100%;
+    height: 210px;
+    background-color: white;
+}
+.shop_cards{
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(7,190px) ;
+    grid-template-rows: repeat(1,210px);
+}
+.shop_card_1{
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.shop_card_1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shop_card_1>a>img{
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.shop_card_1>a>p{
+    margin: 0px;
+    font-size: 12px;
+}
+
+/* space content */
+#space_between-cards{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-bottom: -20px;
+}
+#space_between-cards>p{
+    font-size: 20px;
+    margin-left: 70px;
+}
+#space_between-cards>button{
+    background-color:rgb(255,111,97) ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    height: 25px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    left: 1024px;
+    /* right: -1025px; */
+}
+/* coupn cards  **************** */
+.coupan_cards{
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+}
+.coupan_card_grid{
+    width: 100%;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,130px);
+    column-gap: 30px;
+}
+.coupan_card_box:hover{
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
+.img_1mg>img{
+    display: none;
+    height: 40px;
+    width: 80px;
+}
+.coupan_card_box>img{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    top: -42px;
+    left: 242px;
+}
+.coupan_card_box>div{
+    display: flex;
+
+}
+h5{
+    padding-left: 10px;
+}
+.coupan_card_box>div>p{
+    margin: 10px;
+}
+.coupan_card_box>div>div{
+    border: 1px dashed green;
+    background-color: rgb(243,251,244);
+    color: green;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+/* third cards div ************************* */
+.brands_card{
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+}
+.brand_cars_middle{
+    width: 100%;
+    height: 210px;
+    margin-left: 70px;
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(7,180px) ;
+    grid-template-rows: repeat(1,210px);
+    column-gap: 10px;
+}
+.brand_cards_main{
+    border-radius: 8px;
+    
+}
+.brand_cards_main>a>img{
+    height: 140px;
+    width: 140px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.brand_cards_main:hover{
+    box-shadow: rgba(65, 65, 65, 0.35) 0px 5px 15px;
+}
+/* supplemets *******************/
+.supplement_card{
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+}
+.supplement_card-middle{
+    width: 100%;
+    height: 330px;
+    margin-left: 70px;
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(7,190px) ;
+    grid-template-rows: repeat(1,330px);
+    column-gap: 1px;
+}
+h6{
+    margin: -5px 10px;
+    font-size: 12px;
+}
+h2{
+    margin-top: -8px;
+}
+b{
+    color: #000000;
+}
+
+.supplement_card-inner{
+    border-radius: 8px;
+}
+.supplement_card-inner>img{
+    width: 110px;
+    height: 130px;
+    margin: 20px 40px;
+}
+.supplement_card-inner>p{
+    font-size: 12px;
+    margin: 10px;
+    color: gray;
+}
+.supplement_card-inner>div{
+    font-size: 12px;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: -5px 10px;
+}
+.supplement_card-inner>div>div:nth-child(2){
+    color: green;
+    margin: 10px;
+
+}
+.supplement_card-inner:hover{
+    box-shadow: rgba(65, 65, 65, 0.35) 0px 5px 15px;
+}
 
 
 @media screen and (max-width: 768px) and (min-width:426px ) {
@@ -374,18 +620,165 @@ input{
     #dropdownitems{
         height: 190px;
     }
+    /* slides */
     .slideimg{
         display: flex;
         flex-wrap: wrap;
     }
     #img1{
         height: 200px ;
-        width: 100%;
+        width: 138%;
     }
-   
+    #tata-msg{
+        height: 40px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    /* order box  */
+    #quickorderbox{
+        display: flex;
+        justify-content: space-evenly;
+        width: 98%;
+        font-size: 12px;
+        height: 120px;
+        margin: 20px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    #knowmore img{
+        width: 95%;
+        height: 90px;
+        margin: 30px 20PX;
+        text-align: center;
+   }
+   #knowmore{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(246,246,246);
+    }
+    #knowmore P{
+        font-size: 16px;
+        position: relative;
+        left: 20px;
+        top: -40px;
+    }
+    /* card start */
+    .shop_cards_outer{
+        padding-left: 1px;
+    }
+    .shop_cards{
+        display: grid;
+        grid-template-columns:repeat(4,160px) ;
+        grid-template-rows: repeat(1,210px);
+    }
+    .shop_card_1:hover{
+        box-shadow: none;
+    }
+    .shop_card_1:nth-child(5),.shop_card_1:nth-child(6),.shop_card_1:nth-child(7){
+        display: none;
+    }
+    /* space between card divs */
+    #space_between-cards>p{
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    #space_between-cards>button{
+        position: relative;
+        top: 18px;
+        left: 375px;
+        height: 15px;
+        width: 50px;
+        font-size: 8px;
+
+    }
+    /* coupan cards */
+    .img_1mg>img{
+        display: block;
+        height: 50px;
+        width: 120px;
+        margin-top: -10px;
+        margin-left: 10px;
+
+    }
+    .coupan_cards{
+        width: 100%;
+        height: 220px;
+        padding-top: 20px;
+        background-color: white;
+        box-shadow: rgba(159, 157, 157, 0.35) 0px 5px 15px;
+    }
+    .coupan_card_grid{
+        width: 100%;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,260px);
+        grid-template-rows: repeat(1,200px);
+        column-gap: 0px;
+    }
+    .coupan_card_box>img{
+        position: relative;
+        height: 20px;
+        width: 60px;
+        top: -42px;
+        left: 200px;
+    }
+    .coupan_card_box>div{
+        display: block;
+        margin-left: 10px;
+        font-size: 12px;
+    
+    }
+    .coupan_card_box:last-child{
+        display: none;
+    }
+    /* brands card creation */
+    .brand_cars_middle{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns:repeat(4,180px) ;
+        grid-template-rows: repeat(1,210px);
+        column-gap: 5px;
+    }
+    
+    .brand_cards_main>a>img{
+        height: 140px;
+        width: 140px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+    .brand_cards_main:hover{
+        box-shadow: none;
+    }
+    .brand_cards_main:nth-child(5),.brand_cards_main:nth-child(6),.brand_cards_main:nth-child(7){
+        display: none;
+    }
+    /* suplements card ++********* */
+    .supplement_card{
+        height: 340px;
+    }
+    .supplement_card-middle{
+        height: 330px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns:repeat(7,170px) ;
+        grid-template-rows: repeat(1,340px);
+        column-gap: 1px;
+    }
+    .supplement_card-inner>img{
+        width: 110px;
+        height: 130px;
+        margin: 20px 30px;
+    }
+    .supplement_card-inner:hover{
+        box-shadow: none;
+    }
+    .supplement_card-inner:nth-child(5),
+    .supplement_card-inner:nth-child(6),
+    .supplement_card-inner:nth-child(7){
+        display: none;
+    }
     
 }
-@media screen and (max-width: 425px) and (min-width:200px ) {
+@media screen and (max-width: 426px) and (min-width:200px ) {
     #navbar{
         display: flex;
         flex-wrap: wrap;
@@ -448,6 +841,7 @@ input{
     #dropdownitems{
         height: 200px;
     }
+     /* slides */
     .slideimg{
         display: block;
         /* display: flex;
@@ -462,5 +856,148 @@ input{
         max-width: 100%;
         display: block;
     }
-   
+    #tata-msg{
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* order box  */
+    #quickorderbox{
+        display: flex;
+        justify-content: space-evenly;
+        width: 98%;
+        font-size: 12px;
+        height: 160px;
+        margin: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    #knowmore img{
+        width: 95%;
+        height: 50px;
+        margin: 25px 0px 10PX 10PX;
+        text-align: center;
+   }
+   #knowmore{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(246,246,246);
+    }
+    #knowmore P{
+        font-size: 18px;
+        position: relative;
+        left: 10px;
+        top: -5px;
+    }
+    /* card start */
+    .shop_cards_outer{
+        padding-left: 0px;
+    }
+    .shop_cards{
+        display: grid;
+        grid-template-columns:repeat(4,90px) ;
+        grid-template-rows: repeat(1,160px);
+    }
+    .shop_card_1:hover{
+        box-shadow: none;
+    }
+    .shop_card_1:nth-child(5),.shop_card_1:nth-child(6),.shop_card_1:nth-child(7){
+        display: none;
+    }
+
+     /* space between card divs */
+    #space_between-cards>p{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    #space_between-cards>button{
+        position: relative;
+        top: 18px;
+        left: 155px;
+        height: 15px;
+        width: 50px;
+        font-size: 8px;
+
+    }
+     /* coupan cards */
+     .img_1mg>img{
+        display: block;
+        height: 50px;
+        width: 100px;
+        margin-top: -10px;
+        margin-left: 10px;
+
+    }
+    .coupan_cards{
+        height: 240px;
+        padding-top: 20px;
+        
+    }
+    .coupan_card_grid{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        grid-template-rows: repeat(1,220px);
+        column-gap: 5px;
+    }
+    .coupan_card_box>img{
+        position: relative;
+        top: -40px;
+        left: 90px;
+    }
+    .coupan_card_box>div{
+        display: block;
+        margin-left: 10px;
+        font-size: 10px;
+    
+    }
+    .coupan_card_box:last-child{
+        display: none;
+    }
+    .brand_cars_middle{
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns:repeat(4,90px) ;
+        grid-template-rows: repeat(1,210px);
+        column-gap: 5px;
+    }
+    
+    .brand_cards_main>a>img{
+        height: 130px;
+        width: 130px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+    .brand_cards_main:hover{
+        box-shadow: none;
+    }
+    .brand_cards_main:nth-child(5),.brand_cards_main:nth-child(6),.brand_cards_main:nth-child(7){
+        display: none;
+    }
+    /* suplements card ++********* */
+    .supplement_card{
+        height: 400px;
+    }
+    .supplement_card-middle{
+        height: 400px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns:repeat(7,100px) ;
+        grid-template-rows: repeat(1,400px);
+        column-gap: 1px;
+    }
+    .supplement_card-inner>img{
+        width: 80px;
+        height: 100px;
+        margin: 10px 15px;
+    }
+    .supplement_card-inner:hover{
+        box-shadow: none;
+    }
+    .supplement_card-inner:nth-child(5),
+    .supplement_card-inner:nth-child(6),
+    .supplement_card-inner:nth-child(7){
+        display: none;
+    }
+
 }
