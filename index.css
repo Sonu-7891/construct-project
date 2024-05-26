@@ -359,8 +359,9 @@ input{
 /* cards for products */
 #health_care_card{
     background-color:rgb(246,246,246);
-    height: 2500px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 3360px;
+    width: 100%;
+    
 }
 .shop_cards_outer{
     padding-left: 70px;
@@ -612,6 +613,264 @@ b{
     height: 330px;
     background-color: white;
 }
+/* popular cards */
+.popular_cards{
+    padding-left: 70px;
+    width: 100%;
+    height: 210px;
+    background-color: white;
+}
+/* ayurveda cards */
+.ayurveda_cards{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.ayurveda_cards_middle{
+    margin-left: 70px;
+    width: 100%;
+    padding-top: 15px;
+    height: 280px;
+    background-color: inherit;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,270px);
+    row-gap: 15px;
+    column-gap: 40px;
+}
+.ayurveda_card_inner>a>img{
+    width: 298px;
+    margin: 1px;
+    border-radius: 8px 8px 0px 0px;
+}
+.ayurveda_card_inner>a>p{
+    color: grey;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ayurveda_card_inner>a>h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.ayurveda_card_inner:hover{
+    box-shadow: rgba(68, 68, 68, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+/* footer description */
+#footer_description{
+    height: 850px;
+    width: 100%;
+    text-align: left;
+    
+}
+#footer_description>h3{
+    font-size: 15px;
+    margin: 20px;
+}
+#footer_description>h4{
+    font-size: 15px;
+    margin: 20px;
+    font-weight: 600;
+}
+#footer_description>p>b{
+    color: grey;
+    font-size: 15px;
+}
+#footer_description>p{
+    color: grey;
+    font-size: 15px;
+    margin: 20px;
+}
+
+/* platform_description ***************** */
+#platform_description{
+    height: 250px;
+    width: 100%;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 10px 5px inset;
+}
+
+#platform_description>div:first-child{
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+}
+#platform_description>div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    margin: 0px 100px;
+}
+input:focus {
+    outline: none;
+}
+#platform_description>div:last-child{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly
+   
+}
+#platform_description>div:last-child>div:last-child{
+    margin-top: 15px;
+   
+}
+#platform_description>div:last-child>div:last-child>button{
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+}
+/* footer div item */
+footer{
+    background-color: #fffcf8;
+}
+#first-child{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+.service-content{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 220px;
+    font-size: 13px;
+}
+.service-content>h2{
+    margin-top: 30px;
+}
+.service-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.service-content li {
+    margin-bottom: 8px;
+}
+.service-content a {
+    text-decoration: none;
+    color: #333;
+}
+.service-content:nth-child(4)>div img{
+    height: 20px;
+    width: 20px;
+}
+.service-content button{
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.service-content:nth-child(5) img{
+    height: 50px;
+    width: 120px;
+}
+/* tata features ************ */
+.tata-features{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid rgb(198, 198, 198);
+}
+.feature-1{
+    height: 250px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.feature-1 img{
+    margin: 10px 0px;
+}
+.feature-1 p{
+    font-size: 12px;
+    color: grey;
+}
+/* certification div */
+#certification{
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding: 10px;
+}
+/* last dropdown with  js */
+
+.dropdown-2 {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dropdown-toggle {
+    background-color: #fffcf8;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-toggle:focus {
+    outline: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: transform 0.2s;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+}
+
+.dropdown-content-2 {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #fffcf8;
+}
+
+.dropdown-content-2 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.dropdown-content-2 p {
+    margin: 10px 0;
+    color: gray;
+    font-size: 15px;
+}
+.footerlast{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
 @media screen and (max-width: 768px) and (min-width:426px ) {
     #navbar{
         
@@ -858,7 +1117,62 @@ b{
         width: 100%;
         height: 350px;
     }
-    
+    .popular_cards{
+        padding-left: 1px;
+    }
+
+    /* ayurveda cards */
+    .ayurveda_cards{
+        height: 250px;
+    }
+    .ayurveda_cards_middle{
+        margin-left: 10px;
+        padding-top: 15px;
+        height: 230px;
+        display: grid;
+        grid-template-columns: repeat(4,220px);
+        grid-template-rows: repeat(1,220px);
+        column-gap: 10px;
+    }
+    .ayurveda_card_inner>a>img{
+        width: 218px;
+        height: 130px;
+    }
+    .ayurveda_card_inner:last-child{
+        display: none;
+    }
+    /* footer description */
+    #footer_description{
+        height: 1200px;
+        width: 100%;
+        padding-top: 150px;
+        text-align: left;
+        
+        
+    }
+   /* platform_description ***************** */
+    #platform_description{
+        height: 290px;
+        width: 100%;
+        padding-top: 40px;
+        
+    }
+    #platform_description>div:first-child{
+        margin: auto;
+        text-align: center;
+        font-size: 14px;
+        color: gray;
+    }
+    #platform_description>div:nth-child(2){
+        font-size: 16px;
+    }
+    #platform_description>div:last-child{
+        font-size: 18px;
+       width: 90%;
+       margin: auto;
+       text-align: center;
+       padding-top: 20px;
+    }
 }
 @media screen and (max-width: 426px) and (min-width:200px ) {
     #navbar{
@@ -1114,6 +1428,74 @@ b{
     .trending_cards{
         width: 100%;
         height: 410px;
+    }
+    .popular_cards{
+        padding-left: 1px;
+    }
+    /* ayurveda cards */
+    .ayurveda_cards{
+        height: 250px;
+    }
+    .ayurveda_cards_middle{
+        margin-left: 2px;
+        display: grid;
+        grid-template-columns: repeat(4,150px);
+        grid-template-rows: repeat(1,220px);
+        column-gap: 10px;
+    }
+    .ayurveda_card_inner>a>img{
+        width: 148px;
+        height: 130px;
+    }
+    .ayurveda_card_inner:last-child{
+        display: none;
+    }
+    .ayurveda_card_inner:hover{
+        box-shadow:none;
+    }
+    #footer_description{
+        height: 1650px;
+        width: 100%;
+        padding-top: 650px;
+        text-align: left;
+        
+    }
+    /* platform description */
+    #platform_description{
+        height: 290px;
+        width: 100%;
+        padding-top: 30px;
+        
+    }
+    #platform_description>div:first-child{
+        font-size: 15px;
+    }
+    #platform_description>div:nth-child(2){
+        font-size: 11px;
+    }
+    #platform_description>div:last-child{
+        font-size: 15px;
+       width: 90%;
+       margin: auto;
+       text-align: center;
+       padding-top: 20px;
+    }
+    /* footer content services ******************* */
+    #first-child{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .service-content{
+        width: 150px;
+    }
+
+    .feature-1{
+        height: 300px;
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        /* margin: auto; */
     }
     
 }
