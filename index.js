@@ -12,3 +12,22 @@ function toggleDropdown() {
         arrow.classList.add('down');
     }
 }
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modal = document.getElementById('modal');
+    const login = document.getElementById('Login-1');
+    const closeBtn = document.getElementsByClassName('close')[0];
+
+    login.onclick = function() {
+        modal.style.display = "flex";
+    }
+    
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});

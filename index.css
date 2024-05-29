@@ -144,7 +144,7 @@ input{
 }
 /* dropdown product content */
 #dropdownitems{
-    height: 50px;
+    height: 80px;
 }
 .product{
     float: left;
@@ -871,6 +871,90 @@ footer{
     margin: auto;
     padding: 20px;
 }
+
+/* login content */
+#Login-1{
+    background-color: white;
+    border: none;color: #000000;
+    font-size: 15px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modal-left, .modal-right {
+    width: 48%;
+}
+
+.modal-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.modal-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-right form input[type="text"],
+.modal-right form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.modal-right form button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-right form button:hover {
+    background-color: #e04a4f;
+}
+
+
 @media screen and (max-width: 768px) and (min-width:426px ) {
     #navbar{
         
@@ -1172,6 +1256,23 @@ footer{
        margin: auto;
        text-align: center;
        padding-top: 20px;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+        width: 90%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        display: flex;
+        flex-wrap: wrap;
+       
     }
 }
 @media screen and (max-width: 426px) and (min-width:200px ) {

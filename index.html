@@ -21,7 +21,32 @@
                     <div class="item"><a href="https://www.1mg.com/subscription-plan/subscriptions">CARE PLAN</a><div class="blink_me" id="safe">SEEMORE</div></div>
                 </DIV>
                 <div id="navbox2">
-                    <div id="Login" class="loginbox"><a href="">Login</a> | <a href="">Sign Up</a></div>
+                    <div id="Login" class="loginbox"><button id="Login-1">Log in | Sign Up</button> </div>
+                    <!-- login content -->
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="modal-left">
+                                <img src="https://via.placeholder.com/150" alt="Healthcare Image">
+                                <h3>Make Healthcare Simpler</h3>
+                                <p>Get medicine information, order medicines, book lab tests and consult doctors online from the comfort of your home.</p>
+                            </div>
+                            <div class="modal-right">
+                                <h2>Log in </h2>
+                                <p>Please enter your Mobile number to receive One Time Password (OTP)</p>
+                                <form>
+                                    <label for="mobile">Enter Mobile Number</label>
+                                    <input type="text" id="mobile" name="mobile" required><br><br>
+                                    <input type="checkbox" id="healthcare" name="healthcare">
+                                    <label for="healthcare">Are you a healthcare professional?</label><br><br>
+                                    <button type="submit">Continue</button>
+                                </form>
+                                <p>Have an account? <a href="#">signup</a></p>
+                                <p>By signing up, you agree to our <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- login content end -->
                     <div id="Login" class="offer"><a href="https://www.1mg.com/offers">Offers</a></div>
                     <div id="Login" class="cart"><a href="https://www.1mg.com/cart"><span class="material-symbols-outlined">
                         shopping_cart
@@ -94,7 +119,7 @@
         </div>
         <!-- second -->
         <div class="product"><a href="">
-            <div class="dropdown">Vitamins & Nutrition ▼ </div> <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown">Vitamins & Nutrition ▼ </div> </a>
             <div class="dropdown-content">
                     <a href="#">
                         <div style="display: flex; flex-wrap:wrap ;">
