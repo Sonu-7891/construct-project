@@ -16,6 +16,8 @@ TATA 1MG is a ecommerce website of medical facility. It is a web application tha
 Here are some screenshots of the application:
 
 ![Screenshot 2024-05-30 110808](https://github.com/Sonu-7891/construct-project/assets/165926245/746b122d-8f63-4a6c-950a-4c5d24fc98b2)
+
+*create login button when we click on the login|sign up button login page will open on the middle of the page *
 ![Screenshot 2024-05-30 110901](https://github.com/Sonu-7891/construct-project/assets/165926245/70d5164c-6579-4c61-bae7-c020b4e0475e)
 *product cards when we hover on the cards it looking diffrent showning the box  shadow*
 
@@ -24,7 +26,7 @@ Here are some screenshots of the application:
 *shoping cart hoverable *
 
 ![Screenshot 2024-05-30 111012](https://github.com/Sonu-7891/web_12/assets/165926245/53d6e186-09ad-421f-a8d4-62fe343c90fe)
-*Dropdown content on click on the and hover the nav content open dropdown content *
+*Dropdown content when we  hover the navbar content open dropdown content *
 
 ## Live Demo
 
