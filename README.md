@@ -15,9 +15,7 @@ TATA 1MG is a ecommerce website of medical facility. It is a web application tha
 
 Here are some screenshots of the application:
 
-![Screenshot 1](C:\Users\91789\Pictures\Screenshots\Screenshot 2024-05-30 110808.png)
-*Login page for user login when we click on the login and sign up button the login page will open in the middle of the page *
-
+![Screenshot 2024-05-30 110808](https://github.com/Sonu-7891/construct-project/assets/165926245/746b122d-8f63-4a6c-950a-4c5d24fc98b2)
 ![Screenshot 2](C:\Users\91789\Pictures\Screenshots\Screenshot 2024-05-30 110901.png)
 *product cards when we hover on the cards it looking diffrent showning the box  shadow*
 
